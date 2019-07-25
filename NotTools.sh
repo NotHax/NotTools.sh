@@ -314,7 +314,7 @@ pkg install python2
 pkg install git
 pip2 install requests
 git clone https://github.com/kancotdiq/ipcs
-mv ipcs $HOME
+mv ipcs $HOME 
 cd $HOME/ipcs
 chmod +x  scan.py
 python2 scan.py
